@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+section {
+    height: 100vh;
+}
+
+.header-area {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/donation10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 200px 80px 0 80px;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.focus-text {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    padding: 12px 25px;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+
+.header-button {
+    display: inline-block;
+    margin-top: 20px;
+}
