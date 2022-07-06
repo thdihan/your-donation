@@ -2,10 +2,9 @@
     Global/Common Styles
 */
 
-* {
+body {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -31,7 +30,6 @@ h4 {
     font-size: 24px;
     font-family: 'Inter',
         sans-serif;
-    ;
 }
 
 p {
@@ -84,7 +82,7 @@ section {
     Header Area 
 */
 .header-area {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../images/donation10.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../images/donation10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -92,8 +90,6 @@ section {
     padding: 200px 80px 0 80px;
     height: 100vh;
 }
-
-
 
 .header-button {
     display: inline-block;
@@ -224,7 +220,6 @@ section {
     Subscription Area Style
 */
 
-
 .subscription-form {
     background-color: rgba(255, 244, 214, 1);
     padding: 80px;
@@ -253,6 +248,10 @@ section {
     vertical-align: middle;
 }
 
+
+/*
+    Footer Area Style
+*/
 footer {
     text-align: center;
     background-color: #0B0D17;
